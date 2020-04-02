@@ -1,0 +1,21 @@
+body{
+    background: #010701;
+    color: #909040;
+  }
+  #game{
+    background: #3c72b1;
+    color: #d4eae5;
+  }
+  #canvas{
+    background: #059910;
+    color: #000
+  }
+  #title{
+    background: #a3a2e7;
+    color: #000
+  }
+
+#HUD{
+    background: #413cb1;
+    color: #d4eae5;
+  }
