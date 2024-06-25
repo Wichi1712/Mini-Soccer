@@ -215,11 +215,12 @@ function cargaImagenes(){
 }
 
 cargaImagenes();
+
 function dibujaBandera(){
     var posX = 20;
     var posY = 10;
-    var anchoBandera = 80;
-    var altoBandera = 50;
+    var anchoBandera = 40;
+    var altoBandera = 30;
     ctx.drawImage(imgBandera,posX,posY,anchoBandera,altoBandera);
 }
 
@@ -462,6 +463,7 @@ function movePlayer() {
 document.addEventListener("keydown", function(e){
 	teclaPulsada = e.keyCode;
 	tecla[e.keyCode] = true;
+	console.log(keyCode);//Muestra la tecla pulsada
 	/*
 	var cod = e.keyCode;
 	if(move){
